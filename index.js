@@ -6,7 +6,7 @@ function rate(rating) {
     var stars = document.getElementsByClassName('star');
     for (var i = 0; i < stars.length; i++) {
       if (i < rating) {
-        stars[i].style.backgroundColor = 'yellow';
+        stars[i].style.backgroundColor = 'grey';
       } else {
         stars[i].style.backgroundColor = 'white';
       }

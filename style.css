@@ -1,3 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align:center;
+
+  }
+
+
 .star {
     display: inline-block;
     width: 25px;
