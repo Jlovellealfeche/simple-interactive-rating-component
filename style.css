@@ -1,0 +1,18 @@
+.star {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('star.png');
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  .rating {
+    font-size: 0;
+  }
+  
+  #result {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
