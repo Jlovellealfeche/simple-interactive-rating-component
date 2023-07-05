@@ -2,12 +2,11 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <div class="container">
-    <div>
-        <h1> Simple Rating component</h1>
-    </div>
+<body class="flex flex-col justify-center items-center h-screen">
+  <div class="text-center">
+    <h1 class="mb-8 font-black font-mono text-lg"> Simple Rating component</h1>
     <div class="rating">
       <span class="star" onclick="rate(1)"></span>
       <span class="star" onclick="rate(2)"></span>
